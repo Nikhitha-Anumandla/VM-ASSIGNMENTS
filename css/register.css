@@ -1,0 +1,62 @@
+
+table{
+    text-align: left;
+}
+*{
+/*    color: white;*/
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.legendc{
+    background-color: yellowgreen;
+}
+a:link{
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover{
+    background-color: lightblue;
+    text-decoration: underline;
+}
+a:active{
+    color:red;
+}
+a:visited{
+    color: brown;
+}
+.google{
+    background-color: #d4d9d4;
+    height: 50px;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.field{
+    background-image: url("../images/bluebackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 25px;
+    background-size: cover;
+    padding: 20px;
+    position:relative;
+}
+body{
+    padding: 20px;
+}
+/*
+.brand{
+    
+    font-size: 5rem;
+    position:absolute;
+    right: 500px;
+    top:20px;
+}
+*/
+
+
+

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>REGISTER FORM</title>
+        <link rel="stylesheet" href="..//css/register.css">
+        <script src="../JS/register.js"></script>
+    </head>
+    <body>
+        <fieldset class="field">
+                <legend class="legendc">REGISTER FORM</legend>
+                <table class="table">
+                    <tr><th>Name </th><th>:<input type="text"></th></tr>
+                    <tr><td>Email</td><td>:<input type="text"></td></tr>
+                    <tr><td>Height</td><td>:<input type="text" id="myHeight"></td></tr>
+                    <tr><td>DOB</td><td>:<input type="date"></td></tr>
+                    <tr><td>Gender</td><td>:<input type="radio" name="gender">Male <br>&nbsp;<input type="radio" name="gender">Female</td></tr>
+                    <tr><td>Age</td><td>:<select>
+                        <option value="18-20">18-20</option>
+                        <option value="21-25">21-25</option>
+                        <option value="above 25" selected>Above 25</option></select></td></tr>
+                    <tr><td>Address</td><td>: <textarea >Type Address</textarea></td></tr>    
+                    <tr><td>Favourite items</td><td>:<input type="checkbox" name="fav"> cold drinks<br>
+                    &nbsp;<input type="checkbox" name="fav">spices<br>
+                        &nbsp;<input type="checkbox" name="fav">Biryani</td></tr>  
+                    <tr><td><button onclick="printAge()">Submit</button></td></tr>      
+                </table>
+                <p id="heightDisplay"></p>
+                <hr style="width: auto">
+                <p class="google">Fill this form, every detail is important. If you have any queries check <a href="google.com">&nbsp;Google</a></p>
+<!--                <h1 class="brand">GOOGLE</h1>-->
+        </fieldset>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+.even{
+    background: lightgreen;
+    
+}
+.odd{
+    background: lightblue;
+}
+table{
+    text-align: center;
+}
+td,th{
+    padding: 30px;
+}
